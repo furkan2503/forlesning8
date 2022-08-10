@@ -1,0 +1,26 @@
+{
+  "name": "forlesning8",
+  "version": "1.0.0",
+  "description": "* [ ] Create Express + React project\r * [ ] Create server.js and index.js\r *",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "concurrently npm:dev:client: npm dev:server",
+    "dev:client": "cd client && npm run dev",
+    "dev:server": "cd server && npm run dev"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/furkan2503/forlesning8.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/furkan2503/forlesning8/issues"
+  },
+  "homepage": "https://github.com/furkan2503/forlesning8#readme",
+  "devDependencies": {
+    "concurrently": "^7.3.0"
+  }
+}
